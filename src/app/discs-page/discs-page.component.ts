@@ -52,7 +52,7 @@ export class DiscsPageComponent implements OnInit {
     });
   }
 
-  btnAdd(): void {
+  onAddClick(): void {
     const newDisc = new Disc();
     newDisc.id = this.id;
     newDisc.title = this.title;
